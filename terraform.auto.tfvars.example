@@ -1,0 +1,22 @@
+# README: Rename me to vault.auto.tfvars & add values to the below variables
+
+#Vault cluster auth specific vars
+vault_cluster_addr = ""
+
+#k8s auth specific vars
+k8_endpoint_url = ""
+k8_cluster_ca = <<EOT
+
+EOT
+
+token_reviewer_jwt = <<EOT
+
+EOT
+
+#testing userpass module
+userpass_name_1 = ""
+userpass_password_1 = ""
+userpass_policies_1 = "admins, test1"
+userpass_name_2 = ""
+userpass_password_2 = ""
+userpass_policies_2 = ""
